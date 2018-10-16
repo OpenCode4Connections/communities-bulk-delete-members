@@ -1,6 +1,6 @@
 {
     "name": "Bulk delete Members Application",
-    "title": "Favourite Communitie",
+    "title": "Bulk delete memebers of a community",
     "description": "Allows you to bulk delete members of a community",
     "services": [
         "Customizer"
