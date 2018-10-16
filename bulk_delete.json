@@ -1,0 +1,26 @@
+{
+    "name": "Bulk delete Members Application",
+    "title": "Favourite Communitie",
+    "description": "Allows you to bulk delete members of a community",
+    "services": [
+        "Customizer"
+    ],
+    "state": "enabled",
+    "extensions": [
+        {
+            "name": "Bulk delete Members extension",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-files": [
+                    "bulk_delete.min.js"
+                ],
+                "include-repo": {
+                    "name": "communities-bulk-delete-members"
+                }
+            },
+            "path": "global",
+            "application": "Bulk delete Members Application",
+            "state": "enabled"
+        }
+    ]
+}
